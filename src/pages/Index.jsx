@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { WhatsappIcon, InstagramIcon, LinkedinIcon } from 'lucide-react';
+import { MessageCircle, Instagram, Linkedin } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -42,15 +42,15 @@ const Index = () => {
           <h2 className="text-2xl font-semibold mb-4">How to Contact Us</h2>
           <div className="flex justify-center space-x-4">
             <Button variant="outline" className="flex items-center">
-              <WhatsappIcon className="mr-2 h-4 w-4" />
+              <MessageCircle className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
             <Button variant="outline" className="flex items-center">
-              <InstagramIcon className="mr-2 h-4 w-4" />
+              <Instagram className="mr-2 h-4 w-4" />
               Instagram
             </Button>
             <Button variant="outline" className="flex items-center">
-              <LinkedinIcon className="mr-2 h-4 w-4" />
+              <Linkedin className="mr-2 h-4 w-4" />
               LinkedIn
             </Button>
           </div>
